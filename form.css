@@ -1,0 +1,54 @@
+*{
+    font-family: "Kanit", sans-serif;
+}
+
+
+h1, h2, h3, .h1, .h2, .h3{
+    font-family: "Genos", sans-serif;
+}
+
+header{
+    background-image: url(Media/bg-1.jpg);
+    height: 100vh;
+}
+
+.container{
+    width: 40vw;
+    height: 99vh;
+    background-color: #3B1E54;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    color: white;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    
+}
+
+
+.titolo{
+    font-size: 50px;
+}
+
+/* ICONS */
+
+i{
+    color: white;
+    margin-top: 50px;
+    border: 1px solid var(--yl);
+    border-radius: 50%;
+    padding: 40px;
+    background-color: var(--yl);
+}
+
+/* VARIABILI */
+
+:root{
+    --yl: #ffff01;
+}
+
+.bottone{
+    background-color: var(--yl);
+    font-size: large;
+}
+
+ 
